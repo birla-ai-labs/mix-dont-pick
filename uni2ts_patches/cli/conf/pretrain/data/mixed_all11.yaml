@@ -1,0 +1,15 @@
+_target_: uni2ts.data.builder.concat_simple.MixedDatasetBuilder
+storage_path: ${oc.env:DATA_ROOT}
+weight: 1.0
+datasets:
+  - waveform_seed42
+  - sde_seed42
+  - kernelsynth_seed42
+  - chaotic_seed42
+  - tsi_seed42
+  - stepfunction_seed42
+  - timesynth_seed42
+  - fbm_seed42
+  - arima_seed42
+  - garch_seed42
+  - ets_seed42

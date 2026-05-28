@@ -1,0 +1,50 @@
+model_family,domain,run_type,label,condition,n_tasks,rank_mean,short_CRPS,short_MASE,medium_CRPS,medium_MASE,long_CRPS,long_MASE
+chronos,Econ/Fin,single_generator,kernelsynth,kernelsynth,6,1.0,0.87,0.96,--,--,--,--
+chronos,Econ/Fin,single_generator,tsi,tsi,6,2.0,1.01,1.14,--,--,--,--
+chronos,Econ/Fin,single_generator,ets,ets,6,3.0,1.05,1.22,--,--,--,--
+chronos,Econ/Fin,single_generator,waveform,waveform,6,4.0,1.12,1.31,--,--,--,--
+chronos,Econ/Fin,single_generator,garch,garch,6,5.5,1.21,1.46,--,--,--,--
+chronos,Econ/Fin,anchor,Real Ref,real_reference,6,,0.90,1.01,--,--,--,--
+chronos,Econ/Fin,anchor,Mixed,mixed_all11,6,,0.99,0.95,--,--,--,--
+chronos,Energy,single_generator,kernelsynth,kernelsynth,32,1.0,0.88,1.11,1.59,2.05,1.71,2.35
+chronos,Energy,single_generator,sde,sde,32,2.5,1.13,1.32,1.59,1.89,1.45,1.85
+chronos,Energy,single_generator,stepfunction,stepfunction,32,2.5,1.10,1.29,1.66,2.05,1.37,1.81
+chronos,Energy,single_generator,garch,garch,32,4.5,1.14,1.37,1.72,2.19,1.71,2.30
+chronos,Energy,single_generator,timesynth,timesynth,32,4.5,1.24,1.61,1.43,1.97,1.43,2.08
+chronos,Energy,anchor,Real Ref,real_reference,32,,0.91,1.13,1.25,1.48,1.16,1.48
+chronos,Energy,anchor,Mixed,mixed_all11,32,,0.93,1.14,1.60,1.93,1.47,1.88
+chronos,Healthcare,single_generator,ets,ets,5,1.0,0.59,0.69,--,--,--,--
+chronos,Healthcare,single_generator,kernelsynth,kernelsynth,5,2.0,0.86,0.96,--,--,--,--
+chronos,Healthcare,single_generator,fbm,fbm,5,3.0,0.99,1.10,--,--,--,--
+chronos,Healthcare,single_generator,arima,arima,5,5.0,1.01,1.21,--,--,--,--
+chronos,Healthcare,single_generator,stepfunction,stepfunction,5,5.0,1.10,1.16,--,--,--,--
+chronos,Healthcare,anchor,Real Ref,real_reference,5,,0.81,0.85,--,--,--,--
+chronos,Healthcare,anchor,Mixed,mixed_all11,5,,0.68,0.77,--,--,--,--
+chronos,Nature,single_generator,sde,sde,15,1.0,0.67,0.95,0.45,1.02,0.40,1.01
+chronos,Nature,single_generator,kernelsynth,kernelsynth,15,2.0,0.61,0.86,0.51,1.17,0.53,1.28
+chronos,Nature,single_generator,stepfunction,stepfunction,15,3.0,0.77,1.05,0.53,1.18,0.43,1.13
+chronos,Nature,single_generator,garch,garch,15,4.0,0.70,0.98,0.57,1.85,0.58,2.15
+chronos,Nature,single_generator,tsi,tsi,15,5.5,0.68,0.96,0.78,2.74,1.02,3.98
+chronos,Nature,anchor,Real Ref,real_reference,15,,0.56,0.82,0.48,1.26,0.41,1.10
+chronos,Nature,anchor,Mixed,mixed_all11,15,,0.59,0.83,0.59,1.41,0.49,1.42
+chronos,Sales,single_generator,sde,sde,4,1.0,0.50,0.75,--,--,--,--
+chronos,Sales,single_generator,ets,ets,4,2.5,0.52,0.78,--,--,--,--
+chronos,Sales,single_generator,tsi,tsi,4,3.0,0.53,0.78,--,--,--,--
+chronos,Sales,single_generator,garch,garch,4,3.5,0.53,0.80,--,--,--,--
+chronos,Sales,single_generator,fbm,fbm,4,5.5,0.54,0.81,--,--,--,--
+chronos,Sales,anchor,Real Ref,real_reference,4,,0.46,0.74,--,--,--,--
+chronos,Sales,anchor,Mixed,mixed_all11,4,,0.50,0.75,--,--,--,--
+chronos,Transport,single_generator,sde,sde,15,1.5,0.88,1.01,1.16,1.37,0.99,1.27
+chronos,Transport,single_generator,timesynth,timesynth,15,1.5,0.86,1.04,1.06,1.38,0.97,1.38
+chronos,Transport,single_generator,garch,garch,15,3.5,0.90,1.03,1.21,1.43,1.04,1.35
+chronos,Transport,single_generator,kernelsynth,kernelsynth,15,3.5,0.73,0.85,1.28,1.61,1.28,1.71
+chronos,Transport,single_generator,arima,arima,15,5.0,0.94,1.08,1.21,1.56,1.11,1.55
+chronos,Transport,anchor,Real Ref,real_reference,15,,0.64,0.75,0.65,0.79,0.60,0.79
+chronos,Transport,anchor,Mixed,mixed_all11,15,,0.74,0.85,1.18,1.34,0.99,1.23
+chronos,Web/CloudOps,single_generator,sde,sde,20,1.0,0.68,1.05,1.04,1.35,1.18,1.38
+chronos,Web/CloudOps,single_generator,kernelsynth,kernelsynth,20,2.5,0.60,1.10,1.31,1.91,1.55,2.06
+chronos,Web/CloudOps,single_generator,stepfunction,stepfunction,20,2.5,0.74,1.12,1.09,1.41,1.44,1.64
+chronos,Web/CloudOps,single_generator,timesynth,timesynth,20,5.5,1.11,3.27,1.31,2.54,1.31,2.65
+chronos,Web/CloudOps,single_generator,tsi,tsi,20,5.5,0.85,1.33,1.93,3.23,2.20,3.12
+chronos,Web/CloudOps,anchor,Real Ref,real_reference,20,,0.59,0.92,1.16,1.49,1.18,1.47
+chronos,Web/CloudOps,anchor,Mixed,mixed_all11,20,,0.67,0.93,1.21,1.51,1.31,1.50

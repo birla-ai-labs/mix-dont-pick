@@ -1,0 +1,56 @@
+test_dataset,test_key,test_freq,test_freq_normalized,test_domain,test_num_variates,test_num_series,pretrain_datasets,pretrain_num_datasets,pretrain_univariate_count,coverage_method,notes
+Jena Weather,Jena Weather / 10T,10T,10T,Nature,21,1,,0,0,centroid,No pretrain data at this domain+frequency
+Jena Weather,Jena Weather / H,H,H,Nature,21,1,China Air Quality; Beijing Air Quality,2,2754,PRDC,
+Jena Weather,Jena Weather / D,D,D,Nature,21,1,Sunspot,1,1,centroid,Below PRDC threshold (1 < 500)
+BizITObs - Application,BizITObs - Application / 10S,10S,10S,Web/CloudOps,2,1,,0,0,centroid,No pretrain data at this domain+frequency
+BizITObs - Service,BizITObs - Service / 10S,10S,10S,Web/CloudOps,2,21,,0,0,centroid,No pretrain data at this domain+frequency
+BizITObs - L2C,BizITObs - L2C / 5T,5T,5T,Web/CloudOps,7,1,Azure VM Traces 2017; Borg Cluster Data 2011; Alibaba Cluster Trace 2018,3,563062,PRDC,
+BizITObs - L2C,BizITObs - L2C / H,H,H,Web/CloudOps,7,1,,0,0,centroid,No pretrain data at this domain+frequency
+Bitbrains - Fast Storage,Bitbrains - Fast Storage / 5T,5T,5T,Web/CloudOps,2,1250,Azure VM Traces 2017; Borg Cluster Data 2011; Alibaba Cluster Trace 2018,3,563062,PRDC,
+Bitbrains - Fast Storage,Bitbrains - Fast Storage / H,H,H,Web/CloudOps,2,1250,,0,0,centroid,No pretrain data at this domain+frequency
+Bitbrains - rnd,Bitbrains - rnd / 5T,5T,5T,Web/CloudOps,2,500,Azure VM Traces 2017; Borg Cluster Data 2011; Alibaba Cluster Trace 2018,3,563062,PRDC,
+Bitbrains - rnd,Bitbrains - rnd / H,H,H,Web/CloudOps,2,500,,0,0,centroid,No pretrain data at this domain+frequency
+Restaurant,Restaurant / D,D,D,Sales,1,807,M5; Favorita Sales; Favorita Transactions,3,142384,PRDC,
+ETT1,ETT1 / 15T,15T,15T,Energy,7,1,,0,0,centroid,No pretrain data at this domain+frequency
+ETT1,ETT1 / H,H,H,Energy,7,1,BDG-2 Panther; BDG-2 Fox; BDG-2 Rat; BDG-2 Bear; Low Carbon London; SMART; IDEAL; Sceaux; Borealis; Buildings900K; Covid19 Energy; GEF12; GEF14; GEF17; PDB; Spanish; BDG-2 Hog; BDG-2 Bull; BDG-2 Cockatoo; ELF,20,1793991,PRDC,
+ETT1,ETT1 / D,D,D,Energy,7,1,,0,0,centroid,No pretrain data at this domain+frequency
+ETT1,ETT1 / W-THU,W-THU,W,Energy,7,1,,0,0,centroid,No pretrain data at this domain+frequency
+ETT2,ETT2 / 15T,15T,15T,Energy,7,1,,0,0,centroid,No pretrain data at this domain+frequency
+ETT2,ETT2 / H,H,H,Energy,7,1,BDG-2 Panther; BDG-2 Fox; BDG-2 Rat; BDG-2 Bear; Low Carbon London; SMART; IDEAL; Sceaux; Borealis; Buildings900K; Covid19 Energy; GEF12; GEF14; GEF17; PDB; Spanish; BDG-2 Hog; BDG-2 Bull; BDG-2 Cockatoo; ELF,20,1793991,PRDC,
+ETT2,ETT2 / D,D,D,Energy,7,1,,0,0,centroid,No pretrain data at this domain+frequency
+ETT2,ETT2 / W-THU,W-THU,W,Energy,7,1,,0,0,centroid,No pretrain data at this domain+frequency
+Loop Seattle,Loop Seattle / 5T,5T,5T,Transport,1,323,LargeST; PEMS03; PEMS04; PEMS07; PEMS08; PEMS Bay; Los-Loop,7,45537,PRDC,
+Loop Seattle,Loop Seattle / H,H,H,Transport,1,323,Uber TLC Hourly; Traffic Hourly; Rideshare; Pedestrian Counts,4,3494,PRDC,
+Loop Seattle,Loop Seattle / D,D,D,Transport,1,323,Uber TLC Daily; Covid Mobility; Vehicle Trips,3,953,PRDC,
+SZ-Taxi,SZ-Taxi / 15T,15T,15T,Transport,1,156,SHMetro; HZMetro; Q-Traffic,3,45884,PRDC,
+SZ-Taxi,SZ-Taxi / H,H,H,Transport,1,156,Uber TLC Hourly; Traffic Hourly; Rideshare; Pedestrian Counts,4,3494,PRDC,
+M_DENSE,M_DENSE / H,H,H,Transport,1,30,Uber TLC Hourly; Traffic Hourly; Rideshare; Pedestrian Counts,4,3494,PRDC,
+M_DENSE,M_DENSE / D,D,D,Transport,1,30,Uber TLC Daily; Covid Mobility; Vehicle Trips,3,953,PRDC,
+Solar,Solar / 10T,10T,10T,Energy,1,137,KDD Cup 2022,1,134,centroid,Below PRDC threshold (134 < 500)
+Solar,Solar / H,H,H,Energy,1,137,BDG-2 Panther; BDG-2 Fox; BDG-2 Rat; BDG-2 Bear; Low Carbon London; SMART; IDEAL; Sceaux; Borealis; Buildings900K; Covid19 Energy; GEF12; GEF14; GEF17; PDB; Spanish; BDG-2 Hog; BDG-2 Bull; BDG-2 Cockatoo; ELF,20,1793991,PRDC,
+Solar,Solar / D,D,D,Energy,1,137,,0,0,centroid,No pretrain data at this domain+frequency
+Solar,Solar / W-FRI,W-FRI,W,Energy,1,137,,0,0,centroid,No pretrain data at this domain+frequency
+Hierarchical Sales,Hierarchical Sales / D,D,D,Sales,1,118,M5; Favorita Sales; Favorita Transactions,3,142384,PRDC,
+Hierarchical Sales,Hierarchical Sales / W-WED,W-WED,W,Sales,1,118,,0,0,centroid,No pretrain data at this domain+frequency
+M4 Yearly,M4 Yearly / A-DEC,A-DEC,A,Econ/Fin,1,22974,M1 Yearly; M3 Yearly; Tourism Yearly,3,1170,PRDC,
+M4 Quarterly,M4 Quarterly / Q-DEC,Q-DEC,Q,Econ/Fin,1,24000,M1 Quarterly; M3 Quarterly; M3 Other; Tourism Quarterly,4,1555,PRDC,
+M4 Monthly,M4 Monthly / M,M,M,Econ/Fin,1,48000,M1 Monthly; M3 Monthly; Tourism Monthly; CIF 2016; FRED MD; GoDaddy,6,8860,PRDC,
+M4 Weekly,M4 Weekly / W-SUN,W-SUN,W,Econ/Fin,1,359,NN5 Weekly,1,111,centroid,Below PRDC threshold (111 < 500)
+M4 Daily,M4 Daily / D,D,D,Econ/Fin,1,4227,NN5 Daily; Bitcoin,2,129,centroid,Below PRDC threshold (129 < 500)
+M4 Hourly,M4 Hourly / H,H,H,Econ/Fin,1,414,,0,0,centroid,No pretrain data at this domain+frequency
+Hospital,Hospital / M,M,M,Healthcare,1,767,,0,0,centroid,No pretrain data at this domain+frequency
+COVID Deaths,COVID Deaths / D,D,D,Healthcare,1,266,,0,0,centroid,No pretrain data at this domain+frequency
+US Births,US Births / D,D,D,Healthcare,1,1,,0,0,centroid,No pretrain data at this domain+frequency
+US Births,US Births / W-TUE,W-TUE,W,Healthcare,1,1,CDC Fluview ILINet; CDC Fluview WHO NREVSS; Project Tycho,3,1929,PRDC,
+US Births,US Births / M,M,M,Healthcare,1,1,,0,0,centroid,No pretrain data at this domain+frequency
+Saugeen,Saugeen / D,D,D,Nature,1,1,Sunspot,1,1,centroid,Below PRDC threshold (1 < 500)
+Saugeen,Saugeen / W-THU,W-THU,W,Nature,1,1,,0,0,centroid,No pretrain data at this domain+frequency
+Saugeen,Saugeen / M,M,M,Nature,1,1,,0,0,centroid,No pretrain data at this domain+frequency
+Temperature Rain,Temperature Rain / D,D,D,Nature,1,32072,Sunspot,1,1,centroid,Below PRDC threshold (1 < 500)
+KDD Cup 2018,KDD Cup 2018 / H,H,H,Nature,1,270,China Air Quality; Beijing Air Quality,2,2754,PRDC,
+KDD Cup 2018,KDD Cup 2018 / D,D,D,Nature,1,270,Sunspot,1,1,centroid,Below PRDC threshold (1 < 500)
+Car Parts,Car Parts / M,M,M,Sales,1,2674,,0,0,centroid,No pretrain data at this domain+frequency
+Electricity,Electricity / 15T,15T,15T,Energy,1,370,,0,0,centroid,No pretrain data at this domain+frequency
+Electricity,Electricity / H,H,H,Energy,1,370,BDG-2 Panther; BDG-2 Fox; BDG-2 Rat; BDG-2 Bear; Low Carbon London; SMART; IDEAL; Sceaux; Borealis; Buildings900K; Covid19 Energy; GEF12; GEF14; GEF17; PDB; Spanish; BDG-2 Hog; BDG-2 Bull; BDG-2 Cockatoo; ELF,20,1793991,PRDC,
+Electricity,Electricity / D,D,D,Energy,1,370,,0,0,centroid,No pretrain data at this domain+frequency
+Electricity,Electricity / W-FRI,W-FRI,W,Energy,1,370,,0,0,centroid,No pretrain data at this domain+frequency

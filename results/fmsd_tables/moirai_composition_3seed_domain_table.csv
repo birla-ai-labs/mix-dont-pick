@@ -1,0 +1,36 @@
+model_family,domain,R-S Ratio,condition,short_CRPS,short_MASE,medium_CRPS,medium_MASE,long_CRPS,long_MASE
+moirai,Econ/Fin,Real Ref,real_reference,1.18 ± 0.03,1.51 ± 0.02,--,--,--,--
+moirai,Econ/Fin,75-25,mixed_real_7525,1.04 ± 0.13,1.18 ± 0.19,--,--,--,--
+moirai,Econ/Fin,50-50,mixed_real_5050,★ 0.97 ± 0.03,★ 1.06 ± 0.02,--,--,--,--
+moirai,Econ/Fin,25-75,mixed_real_2575,0.99 ± 0.06,1.09 ± 0.03,--,--,--,--
+moirai,Econ/Fin,Mixed,mixed_all11,1.10 ± 0.12,1.24 ± 0.15,--,--,--,--
+moirai,Energy,Real Ref,real_reference,0.95 ± 0.00,1.16 ± 0.01,1.15 ± 0.02,1.55 ± 0.02,1.31 ± 0.07,1.90 ± 0.12
+moirai,Energy,75-25,mixed_real_7525,0.80 ± 0.02,0.99 ± 0.01,★ 0.80 ± 0.02,★ 1.15 ± 0.03,★ 0.92 ± 0.09,★ 1.41 ± 0.10
+moirai,Energy,50-50,mixed_real_5050,★ 0.80 ± 0.01,★ 0.99 ± 0.01,0.92 ± 0.07,1.29 ± 0.10,1.08 ± 0.08,1.60 ± 0.11
+moirai,Energy,25-75,mixed_real_2575,0.83 ± 0.01,1.03 ± 0.01,1.23 ± 0.06,1.64 ± 0.07,1.31 ± 0.02,1.92 ± 0.08
+moirai,Energy,Mixed,mixed_all11,0.84 ± 0.01,1.04 ± 0.00,0.94 ± 0.03,1.37 ± 0.04,1.02 ± 0.08,1.60 ± 0.11
+moirai,Healthcare,Real Ref,real_reference,0.79 ± 0.01,0.95 ± 0.01,--,--,--,--
+moirai,Healthcare,75-25,mixed_real_7525,★ 0.55 ± 0.02,★ 0.71 ± 0.04,--,--,--,--
+moirai,Healthcare,50-50,mixed_real_5050,0.56 ± 0.01,0.72 ± 0.02,--,--,--,--
+moirai,Healthcare,25-75,mixed_real_2575,0.61 ± 0.02,0.77 ± 0.04,--,--,--,--
+moirai,Healthcare,Mixed,mixed_all11,0.57 ± 0.02,0.73 ± 0.02,--,--,--,--
+moirai,Nature,Real Ref,real_reference,0.56 ± 0.01,0.84 ± 0.01,0.42 ± 0.02,1.19 ± 0.04,0.41 ± 0.04,1.13 ± 0.03
+moirai,Nature,75-25,mixed_real_7525,0.53 ± 0.01,0.80 ± 0.03,★ 0.35 ± 0.01,★ 1.00 ± 0.01,★ 0.33 ± 0.02,★ 1.01 ± 0.02
+moirai,Nature,50-50,mixed_real_5050,★ 0.52 ± 0.00,★ 0.79 ± 0.00,0.35 ± 0.01,1.03 ± 0.03,0.36 ± 0.02,1.06 ± 0.03
+moirai,Nature,25-75,mixed_real_2575,0.53 ± 0.01,0.80 ± 0.01,0.42 ± 0.04,1.18 ± 0.03,0.42 ± 0.04,1.16 ± 0.04
+moirai,Nature,Mixed,mixed_all11,0.54 ± 0.00,0.80 ± 0.01,0.39 ± 0.01,1.04 ± 0.05,0.38 ± 0.02,1.07 ± 0.07
+moirai,Sales,Real Ref,real_reference,0.46 ± 0.00,0.75 ± 0.00,--,--,--,--
+moirai,Sales,75-25,mixed_real_7525,★ 0.44 ± 0.00,★ 0.73 ± 0.00,--,--,--,--
+moirai,Sales,50-50,mixed_real_5050,0.45 ± 0.00,0.73 ± 0.01,--,--,--,--
+moirai,Sales,25-75,mixed_real_2575,0.45 ± 0.00,0.73 ± 0.00,--,--,--,--
+moirai,Sales,Mixed,mixed_all11,0.49 ± 0.00,0.82 ± 0.01,--,--,--,--
+moirai,Transport,Real Ref,real_reference,0.66 ± 0.01,0.78 ± 0.02,0.75 ± 0.02,1.00 ± 0.01,0.81 ± 0.02,1.17 ± 0.03
+moirai,Transport,75-25,mixed_real_7525,0.63 ± 0.01,0.74 ± 0.01,★ 0.62 ± 0.01,★ 0.84 ± 0.01,★ 0.67 ± 0.06,★ 1.00 ± 0.07
+moirai,Transport,50-50,mixed_real_5050,★ 0.62 ± 0.00,★ 0.73 ± 0.00,0.67 ± 0.05,0.90 ± 0.07,0.73 ± 0.04,1.08 ± 0.06
+moirai,Transport,25-75,mixed_real_2575,0.63 ± 0.01,0.74 ± 0.01,0.81 ± 0.06,1.06 ± 0.08,0.82 ± 0.03,1.19 ± 0.06
+moirai,Transport,Mixed,mixed_all11,0.68 ± 0.00,0.81 ± 0.00,0.75 ± 0.03,1.00 ± 0.03,0.73 ± 0.04,1.07 ± 0.06
+moirai,Web/CloudOps,Real Ref,real_reference,0.79 ± 0.05,1.17 ± 0.07,1.02 ± 0.03,1.41 ± 0.05,0.99 ± 0.05,1.35 ± 0.06
+moirai,Web/CloudOps,75-25,mixed_real_7525,0.56 ± 0.03,★ 0.86 ± 0.04,★ 0.89 ± 0.00,★ 1.24 ± 0.01,0.94 ± 0.03,★ 1.30 ± 0.05
+moirai,Web/CloudOps,50-50,mixed_real_5050,0.60 ± 0.02,0.89 ± 0.02,0.93 ± 0.05,1.32 ± 0.06,★ 0.93 ± 0.03,1.32 ± 0.07
+moirai,Web/CloudOps,25-75,mixed_real_2575,0.64 ± 0.03,0.96 ± 0.04,0.98 ± 0.07,1.39 ± 0.11,0.96 ± 0.05,1.43 ± 0.15
+moirai,Web/CloudOps,Mixed,mixed_all11,★ 0.56 ± 0.02,0.87 ± 0.01,0.91 ± 0.03,1.33 ± 0.02,0.95 ± 0.03,1.42 ± 0.07

@@ -1,0 +1,4 @@
+_target_: uni2ts.data.builder.simple.SimpleDatasetBuilder
+dataset: fbm_seed42
+weight: 1.0
+storage_path: ${oc.env:DATA_ROOT}

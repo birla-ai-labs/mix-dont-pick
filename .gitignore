@@ -1,0 +1,22 @@
+# environment
+.env
+.DS_Store
+
+# data (too large for git)
+metadata.csv
+data/features/
+data/synthetic_corpora/
+data/gift_eval/real_reference/
+data/gift_eval/eval_data/
+data/gift_eval/pretrain_data/
+
+# logs and outputs
+logs/
+*.log
+*.out
+wandb/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

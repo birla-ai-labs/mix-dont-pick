@@ -1,0 +1,11 @@
+model_family,run_type,condition,label,n_tasks,norm_crps,norm_mase
+chronos,anchor,real_reference,Real Ref,97,0.791114706358514,1.0610181822965135
+chronos,anchor,mixed_all11,Mixed,97,0.906494628611638,1.1711375452220019
+chronos,single_generator,kernelsynth,kernelsynth,97,0.9360226573592322,1.290164642354756
+chronos,single_generator,sde,sde,97,0.9805409825846693,1.2822084409068681
+chronos,single_generator,stepfunction,stepfunction,97,1.0484851726580153,1.358900330611459
+moirai,single_generator,kernelsynth,kernelsynth,97,0.7338349661691278,1.0489525327946658
+moirai,anchor,mixed_all11,Mixed,97,0.7351026838318307,1.0690772069511134
+moirai,anchor,real_reference,Real Ref,97,0.8143357469528014,1.1489361002346672
+moirai,single_generator,ets,ets,97,0.820389606678353,1.1536300882128745
+moirai,single_generator,waveform,waveform,97,0.8699285314470124,1.2400538325547565

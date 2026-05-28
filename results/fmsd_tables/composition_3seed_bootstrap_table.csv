@@ -1,0 +1,13 @@
+model_family,label_a,label_b,metric,n_pairs,Rel. delta,95% CI,P(a better),Win rate
+moirai,75-25,50-50,norm_crps,291,-3.6%,"[-5.3%, -1.8%]",1.00,0.59
+moirai,75-25,50-50,norm_mase,291,-2.8%,"[-4.4%, -1.1%]",1.00,0.64
+moirai,75-25,Mixed,norm_crps,291,-6.6%,"[-8.4%, -4.7%]",1.00,0.71
+moirai,75-25,Mixed,norm_mase,291,-7.0%,"[-8.9%, -5.2%]",1.00,0.72
+moirai,75-25,Real Ref,norm_crps,291,-17.5%,"[-20.0%, -15.0%]",1.00,0.88
+moirai,75-25,Real Ref,norm_mase,291,-16.0%,"[-18.3%, -13.8%]",1.00,0.88
+chronos,50-50,25-75,norm_crps,291,-1.5%,"[-2.9%, -0.1%]",0.98,0.57
+chronos,50-50,25-75,norm_mase,291,-1.9%,"[-2.9%, -0.9%]",1.00,0.59
+chronos,50-50,Mixed,norm_crps,291,-13.2%,"[-15.7%, -10.8%]",1.00,0.80
+chronos,50-50,Mixed,norm_mase,291,-12.5%,"[-14.7%, -10.3%]",1.00,0.81
+chronos,50-50,Real Ref,norm_crps,291,-1.0%,"[-3.6%, 1.7%]",0.77,0.51
+chronos,50-50,Real Ref,norm_mase,291,-3.1%,"[-5.3%, -0.8%]",0.99,0.61

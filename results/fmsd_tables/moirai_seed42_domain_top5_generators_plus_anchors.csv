@@ -1,0 +1,50 @@
+model_family,domain,run_type,label,condition,n_tasks,rank_mean,short_CRPS,short_MASE,medium_CRPS,medium_MASE,long_CRPS,long_MASE
+moirai,Econ/Fin,single_generator,ets,ets,6,1.0,1.01,1.13,--,--,--,--
+moirai,Econ/Fin,single_generator,kernelsynth,kernelsynth,6,2.0,1.05,1.14,--,--,--,--
+moirai,Econ/Fin,single_generator,stepfunction,stepfunction,6,3.5,1.40,1.71,--,--,--,--
+moirai,Econ/Fin,single_generator,waveform,waveform,6,3.5,1.40,1.82,--,--,--,--
+moirai,Econ/Fin,single_generator,tsi,tsi,6,5.0,1.41,1.82,--,--,--,--
+moirai,Econ/Fin,anchor,Real Ref,real_reference,6,,1.14,1.49,--,--,--,--
+moirai,Econ/Fin,anchor,Mixed,mixed_all11,6,,1.23,1.40,--,--,--,--
+moirai,Energy,single_generator,kernelsynth,kernelsynth,32,1.0,0.87,1.09,0.91,1.31,0.91,1.42
+moirai,Energy,single_generator,waveform,waveform,32,2.0,0.96,1.23,1.08,1.53,1.11,1.70
+moirai,Energy,single_generator,ets,ets,32,3.0,0.97,1.17,1.19,1.60,1.25,1.83
+moirai,Energy,single_generator,sde,sde,32,4.0,1.10,1.34,1.26,1.75,1.21,1.84
+moirai,Energy,single_generator,tsi,tsi,32,5.0,1.05,1.35,1.31,1.85,1.32,2.01
+moirai,Energy,anchor,Real Ref,real_reference,32,,0.95,1.15,1.15,1.55,1.23,1.77
+moirai,Energy,anchor,Mixed,mixed_all11,32,,0.83,1.03,0.94,1.35,0.98,1.54
+moirai,Healthcare,single_generator,kernelsynth,kernelsynth,5,1.0,0.55,0.73,--,--,--,--
+moirai,Healthcare,single_generator,ets,ets,5,2.0,0.64,0.82,--,--,--,--
+moirai,Healthcare,single_generator,tsi,tsi,5,3.0,0.84,1.10,--,--,--,--
+moirai,Healthcare,single_generator,arima,arima,5,5.0,0.91,1.21,--,--,--,--
+moirai,Healthcare,single_generator,fbm,fbm,5,5.0,0.96,1.17,--,--,--,--
+moirai,Healthcare,anchor,Real Ref,real_reference,5,,0.79,0.96,--,--,--,--
+moirai,Healthcare,anchor,Mixed,mixed_all11,5,,0.56,0.72,--,--,--,--
+moirai,Nature,single_generator,sde,sde,15,1.0,0.60,0.88,0.39,1.12,0.35,1.04
+moirai,Nature,single_generator,ets,ets,15,2.5,0.57,0.85,0.41,1.19,0.40,1.16
+moirai,Nature,single_generator,kernelsynth,kernelsynth,15,2.5,0.59,0.89,0.43,1.07,0.41,1.04
+moirai,Nature,single_generator,waveform,waveform,15,4.5,0.56,0.87,0.43,1.19,0.98,1.22
+moirai,Nature,single_generator,arima,arima,15,5.5,0.66,0.98,0.51,1.33,0.50,1.32
+moirai,Nature,anchor,Real Ref,real_reference,15,,0.57,0.84,0.39,1.15,0.36,1.10
+moirai,Nature,anchor,Mixed,mixed_all11,15,,0.54,0.81,0.39,1.09,0.37,1.12
+moirai,Sales,single_generator,ets,ets,4,1.0,0.50,0.83,--,--,--,--
+moirai,Sales,single_generator,sde,sde,4,2.0,0.51,0.84,--,--,--,--
+moirai,Sales,single_generator,garch,garch,4,3.0,0.51,0.85,--,--,--,--
+moirai,Sales,single_generator,tsi,tsi,4,4.0,0.54,0.88,--,--,--,--
+moirai,Sales,single_generator,kernelsynth,kernelsynth,4,5.0,0.54,0.89,--,--,--,--
+moirai,Sales,anchor,Real Ref,real_reference,4,,0.46,0.75,--,--,--,--
+moirai,Sales,anchor,Mixed,mixed_all11,4,,0.49,0.82,--,--,--,--
+moirai,Transport,single_generator,kernelsynth,kernelsynth,15,1.0,0.70,0.82,0.74,1.01,0.69,1.04
+moirai,Transport,single_generator,ets,ets,15,2.0,0.70,0.83,0.87,1.18,0.85,1.24
+moirai,Transport,single_generator,waveform,waveform,15,3.0,0.77,0.91,0.82,1.11,0.81,1.20
+moirai,Transport,single_generator,sde,sde,15,4.0,0.81,0.96,0.83,1.12,0.77,1.16
+moirai,Transport,single_generator,tsi,tsi,15,5.0,0.85,1.01,0.91,1.23,0.84,1.25
+moirai,Transport,anchor,Real Ref,real_reference,15,,0.66,0.77,0.76,1.00,0.79,1.15
+moirai,Transport,anchor,Mixed,mixed_all11,15,,0.68,0.80,0.73,0.98,0.71,1.05
+moirai,Web/CloudOps,single_generator,kernelsynth,kernelsynth,20,1.0,0.61,0.95,0.83,1.15,0.85,1.19
+moirai,Web/CloudOps,single_generator,ets,ets,20,2.5,0.69,1.02,1.02,1.40,1.01,1.38
+moirai,Web/CloudOps,single_generator,sde,sde,20,2.5,0.73,1.12,0.94,1.34,0.94,1.30
+moirai,Web/CloudOps,single_generator,waveform,waveform,20,4.5,0.70,1.01,1.01,1.50,1.03,1.61
+moirai,Web/CloudOps,single_generator,stepfunction,stepfunction,20,5.0,0.64,1.04,1.03,1.62,1.13,1.81
+moirai,Web/CloudOps,anchor,Real Ref,real_reference,20,,0.74,1.11,1.00,1.35,0.96,1.30
+moirai,Web/CloudOps,anchor,Mixed,mixed_all11,20,,0.58,0.88,0.94,1.36,0.99,1.49

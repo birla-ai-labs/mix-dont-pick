@@ -1,0 +1,25 @@
+model_family,run_type,condition,label,n_tasks,norm_crps,norm_mase,rank_crps,rank_mase,rank_mean
+chronos,anchor,real_reference,Real Ref,97,0.791114706358514,1.0610181822965135,1.0,1.0,1.0
+chronos,single_generator,kernelsynth,kernelsynth,97,0.9360226573592322,1.290164642354756,2.0,3.0,2.5
+chronos,single_generator,sde,sde,97,0.9805409825846693,1.2822084409068681,3.0,2.0,2.5
+chronos,single_generator,stepfunction,stepfunction,97,1.0484851726580153,1.358900330611459,4.0,4.0,4.0
+chronos,single_generator,garch,garch,97,1.10792011320715,1.8629161466206885,5.0,7.0,6.0
+chronos,single_generator,arima,arima,97,1.1277267203038397,1.9157008020028763,6.0,9.0,7.5
+chronos,single_generator,timesynth,timesynth,97,1.1528623532149296,1.883683868301617,7.0,8.0,7.5
+chronos,single_generator,tsi,tsi,97,1.1952807122289293,1.6790959812768371,8.0,5.0,6.5
+chronos,single_generator,waveform,waveform,97,1.3277563533710535,1.840837559614834,9.0,6.0,7.5
+chronos,single_generator,fbm,fbm,97,1.6812187166937504,2.4947433095806626,10.0,10.0,10.0
+chronos,single_generator,chaotic,chaotic,97,1.8423500922110547,2.8674130461403804,11.0,12.0,11.5
+chronos,single_generator,ets,ets,97,1.9758655587871004,2.6935669608420856,12.0,11.0,11.5
+moirai,single_generator,kernelsynth,kernelsynth,97,0.7338349661691278,1.0489525327946658,1.0,1.0,1.0
+moirai,anchor,real_reference,Real Ref,97,0.8143357469528014,1.1489361002346672,2.0,2.0,2.0
+moirai,single_generator,ets,ets,97,0.820389606678353,1.1536300882128745,3.0,3.0,3.0
+moirai,single_generator,waveform,waveform,97,0.8699285314470124,1.2400538325547565,4.0,4.0,4.0
+moirai,single_generator,sde,sde,97,0.9098471410055143,1.306461592930901,5.0,5.0,5.0
+moirai,single_generator,stepfunction,stepfunction,97,0.95813296158912,1.3906949952459382,6.0,7.0,6.5
+moirai,single_generator,tsi,tsi,97,0.968568450522194,1.3686125184566884,7.0,6.0,6.5
+moirai,single_generator,arima,arima,97,0.9877879995984219,1.4302134136272924,8.0,9.0,8.5
+moirai,single_generator,fbm,fbm,97,1.036488265999885,1.4194785603016733,9.0,8.0,8.5
+moirai,single_generator,garch,garch,97,1.0552374028472502,1.466018577018078,10.0,10.0,10.0
+moirai,single_generator,chaotic,chaotic,97,1.1536656590608423,1.635578311459383,11.0,11.0,11.0
+moirai,single_generator,timesynth,timesynth,97,1.1939247387532488,1.6592786256373109,12.0,12.0,12.0

@@ -1,0 +1,56 @@
+dataset,source,split,domain,freq,freq_normalized,num_series,num_targets,num_covariates,total_univariate_series,num_obs,avg_series_length,min_series_length,max_series_length,pred_length_short,windows_short,pred_length_medium,windows_medium,pred_length_long,windows_long
+Jena Weather,"Autoformer (Wu et al., 2021)",eval,Nature,10T,10T,1,21,0,21,52704,52704,52704,52704,48,20,480,11,720,8
+Jena Weather,"Autoformer (Wu et al., 2021)",eval,Nature,H,H,1,21,0,21,8784,8784,8784,8784,48,19,480,2,720,2
+Jena Weather,"Autoformer (Wu et al., 2021)",eval,Nature,D,D,1,21,0,21,366,366,366,366,30,2,,,,
+BizITObs - Application,"AutoMixer (Palaskar et al., 2024)",eval,Web/CloudOps,10S,10S,1,2,0,2,8834,8834,8834,8834,60,15,600,2,900,1
+BizITObs - Service,"AutoMixer (Palaskar et al., 2024)",eval,Web/CloudOps,10S,10S,21,2,0,42,185535,8835,8835,8835,60,15,600,2,900,1
+BizITObs - L2C,"AutoMixer (Palaskar et al., 2024)",eval,Web/CloudOps,5T,5T,1,7,0,7,31968,31968,31968,31968,48,20,480,7,720,5
+BizITObs - L2C,"AutoMixer (Palaskar et al., 2024)",eval,Web/CloudOps,H,H,1,7,0,7,2664,2664,2664,2664,48,6,480,1,720,1
+Bitbrains - Fast Storage,"Grid Workloads Archive (Shen et al., 2015)",eval,Web/CloudOps,5T,5T,1250,2,0,2500,10800000,8640,8640,8640,48,18,480,2,720,2
+Bitbrains - Fast Storage,"Grid Workloads Archive (Shen et al., 2015)",eval,Web/CloudOps,H,H,1250,2,0,2500,901250,721,721,721,48,2,,,,
+Bitbrains - rnd,"Grid Workloads Archive (Shen et al., 2015)",eval,Web/CloudOps,5T,5T,500,2,0,1000,4320000,8640,8640,8640,48,18,480,2,720,2
+Bitbrains - rnd,"Grid Workloads Archive (Shen et al., 2015)",eval,Web/CloudOps,H,H,500,2,0,1000,360000,720,720,720,48,2,,,,
+Restaurant,"Recruit Rest. Comp. (Howard et al., 2017)",eval,Sales,D,D,807,1,0,807,289303,358,67,478,30,1,,,,
+ETT1,"Informer (Zhou et al., 2020)",eval,Energy,15T,15T,1,7,0,7,69680,69680,69680,69680,48,20,480,15,720,10
+ETT1,"Informer (Zhou et al., 2020)",eval,Energy,H,H,1,7,0,7,17420,17420,17420,17420,48,20,480,4,720,3
+ETT1,"Informer (Zhou et al., 2020)",eval,Energy,D,D,1,7,0,7,725,725,725,725,30,3,,,,
+ETT1,"Informer (Zhou et al., 2020)",eval,Energy,W-THU,W,1,7,0,7,103,103,103,103,8,2,,,,
+ETT2,"Informer (Zhou et al., 2020)",eval,Energy,15T,15T,1,7,0,7,69680,69680,69680,69680,48,20,480,15,720,10
+ETT2,"Informer (Zhou et al., 2020)",eval,Energy,H,H,1,7,0,7,17420,17420,17420,17420,48,20,480,4,720,3
+ETT2,"Informer (Zhou et al., 2020)",eval,Energy,D,D,1,7,0,7,725,725,725,725,30,3,,,,
+ETT2,"Informer (Zhou et al., 2020)",eval,Energy,W-THU,W,1,7,0,7,103,103,103,103,8,2,,,,
+Loop Seattle,"LibCity (Wang et al., 2023a)",eval,Transport,5T,5T,323,1,0,323,33953760,105120,105120,105120,48,20,480,20,720,15
+Loop Seattle,"LibCity (Wang et al., 2023a)",eval,Transport,H,H,323,1,0,323,2829480,8760,8760,8760,48,19,480,2,720,2
+Loop Seattle,"LibCity (Wang et al., 2023a)",eval,Transport,D,D,323,1,0,323,117895,365,365,365,30,2,,,,
+SZ-Taxi,"LibCity (Wang et al., 2023a)",eval,Transport,15T,15T,156,1,0,156,464256,2976,2976,2976,48,7,480,1,720,1
+SZ-Taxi,"LibCity (Wang et al., 2023a)",eval,Transport,H,H,156,1,0,156,116064,744,744,744,48,2,,,,
+M_DENSE,"LibCity (Wang et al., 2023a)",eval,Transport,H,H,30,1,0,30,525600,17520,17520,17520,48,20,480,4,720,3
+M_DENSE,"LibCity (Wang et al., 2023a)",eval,Transport,D,D,30,1,0,30,21900,730,730,730,30,3,,,,
+Solar,"LSTNet (Lai et al., 2017)",eval,Energy,10T,10T,137,1,0,137,7200720,52560,52560,52560,48,20,480,11,720,8
+Solar,"LSTNet (Lai et al., 2017)",eval,Energy,H,H,137,1,0,137,1200120,8760,8760,8760,48,19,480,2,720,2
+Solar,"LSTNet (Lai et al., 2017)",eval,Energy,D,D,137,1,0,137,50005,365,365,365,30,2,,,,
+Solar,"LSTNet (Lai et al., 2017)",eval,Energy,W-FRI,W,137,1,0,137,7124,52,52,52,8,1,,,,
+Hierarchical Sales,Mancuso et al. (2020),eval,Sales,D,D,118,1,0,118,215350,1825,1825,1825,30,7,,,,
+Hierarchical Sales,Mancuso et al. (2020),eval,Sales,W-WED,W,118,1,0,118,30680,260,260,260,8,4,,,,
+M4 Yearly,"Monash (Godahewa et al., 2021)",eval,Econ/Fin,A-DEC,A,22974,1,0,22974,845109,37,19,284,6,1,,,,
+M4 Quarterly,"Monash (Godahewa et al., 2021)",eval,Econ/Fin,Q-DEC,Q,24000,1,0,24000,2406108,100,24,874,8,1,,,,
+M4 Monthly,"Monash (Godahewa et al., 2021)",eval,Econ/Fin,M,M,48000,1,0,48000,11246411,234,60,2812,18,1,,,,
+M4 Weekly,"Monash (Godahewa et al., 2021)",eval,Econ/Fin,W-SUN,W,359,1,0,359,371579,1035,93,2610,13,1,,,,
+M4 Daily,"Monash (Godahewa et al., 2021)",eval,Econ/Fin,D,D,4227,1,0,4227,10023836,2371,107,9933,14,1,,,,
+M4 Hourly,"Monash (Godahewa et al., 2021)",eval,Econ/Fin,H,H,414,1,0,414,373372,902,748,1008,48,2,,,,
+Hospital,"Monash (Godahewa et al., 2021)",eval,Healthcare,M,M,767,1,0,767,64428,84,84,84,12,1,,,,
+COVID Deaths,"Monash (Godahewa et al., 2021)",eval,Healthcare,D,D,266,1,0,266,56392,212,212,212,30,1,,,,
+US Births,"Monash (Godahewa et al., 2021)",eval,Healthcare,D,D,1,1,0,1,7305,7305,7305,7305,30,20,,,,
+US Births,"Monash (Godahewa et al., 2021)",eval,Healthcare,W-TUE,W,1,1,0,1,1043,1043,1043,1043,8,14,,,,
+US Births,"Monash (Godahewa et al., 2021)",eval,Healthcare,M,M,1,1,0,1,240,240,240,240,12,2,,,,
+Saugeen,"Monash (Godahewa et al., 2021)",eval,Nature,D,D,1,1,0,1,23741,23741,23741,23741,30,20,,,,
+Saugeen,"Monash (Godahewa et al., 2021)",eval,Nature,W-THU,W,1,1,0,1,3391,3391,3391,3391,8,20,,,,
+Saugeen,"Monash (Godahewa et al., 2021)",eval,Nature,M,M,1,1,0,1,780,780,780,780,12,7,,,,
+Temperature Rain,"Monash (Godahewa et al., 2021)",eval,Nature,D,D,32072,1,0,32072,780,725,725,725,30,3,,,,
+KDD Cup 2018,"Monash (Godahewa et al., 2021)",eval,Nature,H,H,270,1,0,270,2942364,10898,9504,10920,48,20,480,2,720,2
+KDD Cup 2018,"Monash (Godahewa et al., 2021)",eval,Nature,D,D,270,1,0,270,122791,455,396,455,30,2,,,,
+Car Parts,"Monash (Godahewa et al., 2021)",eval,Sales,M,M,2674,1,0,2674,136374,51,51,51,12,1,,,,
+Electricity,"UCI ML Archive (Trindade, 2015)",eval,Energy,15T,15T,370,1,0,370,51894720,140256,140256,140256,48,20,480,20,720,20
+Electricity,"UCI ML Archive (Trindade, 2015)",eval,Energy,H,H,370,1,0,370,12973680,35064,35064,35064,48,20,480,8,720,5
+Electricity,"UCI ML Archive (Trindade, 2015)",eval,Energy,D,D,370,1,0,370,540570,1461,1461,1461,30,5,,,,
+Electricity,"UCI ML Archive (Trindade, 2015)",eval,Energy,W-FRI,W,370,1,0,370,76960,208,208,208,8,3,,,,

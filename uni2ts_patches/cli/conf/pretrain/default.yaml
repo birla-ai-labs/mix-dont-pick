@@ -1,0 +1,73 @@
+hydra:
+  run:
+    dir: outputs/pretrain/${hydra:runtime.choices.model}/${hydra:runtime.choices.data}/${run_name}
+defaults:
+  - model: moirai_small
+  - data: center_waveform
+  - val_data: null
+  - _self_
+run_name: test_waveform
+seed: 42
+tf32: false
+compile: default
+ckpt_path: null
+trainer:
+  _target_: lightning.Trainer
+  accelerator: auto
+  strategy: auto
+  devices: auto
+  num_nodes: 1
+  precision: bf16-mixed
+  logger:
+    _target_: lightning.pytorch.loggers.WandbLogger
+    project: geometry-of-pretraining
+    name: ${run_name}
+    version: 0
+  callbacks:
+    - _target_: lightning.pytorch.callbacks.LearningRateMonitor
+      logging_interval: epoch
+    - _target_: lightning.pytorch.callbacks.ModelCheckpoint
+      dirpath: ${hydra:runtime.output_dir}/checkpoints
+      filename: last
+      monitor: epoch
+      mode: max
+      save_top_k: 1
+      every_n_epochs: 10
+    - _target_: lightning.pytorch.callbacks.ModelCheckpoint
+      dirpath: ${hydra:runtime.output_dir}/checkpoints
+      monitor: epoch
+      save_weights_only: true
+      mode: max
+      save_top_k: -1
+      every_n_epochs: ${floordiv:${trainer.max_epochs},10}
+    - _target_: uni2ts.callbacks.HuggingFaceCheckpoint.HuggingFaceCheckpoint
+      dirpath: ${hydra:runtime.output_dir}/HF_checkpoints
+      filename: last
+      monitor: epoch
+      mode: max
+      save_top_k: 1
+      every_n_epochs: 1
+  max_epochs: 50
+  enable_progress_bar: true
+  accumulate_grad_batches: 1
+  gradient_clip_val: 1.0
+  gradient_clip_algorithm: norm
+train_dataloader:
+  _target_: uni2ts.data.loader.DataLoader
+  batch_size: 96
+  batch_size_factor: 2.0
+  cycle: true
+  num_batches_per_epoch: 1000
+  shuffle: true
+  num_workers: 4
+  collate_fn:
+    _target_: uni2ts.data.loader.PackCollate
+    max_length: ${model.module_kwargs.max_seq_len}
+    seq_fields: ${cls_getattr:${model._target_},seq_fields}
+    pad_func_map: ${cls_getattr:${model._target_},pad_func_map}
+  pin_memory: true
+  drop_last: true
+  fill_last: false
+  worker_init_fn: null
+  prefetch_factor: 2
+  persistent_workers: true

@@ -1,0 +1,13 @@
+model_family,label_a,label_b,metric,n_pairs,Rel. delta,95% CI,P(a better),Win rate
+moirai,kernelsynth,ets,norm_crps,97,-10.6%,"[-14.9%, -6.3%]",1.00,0.62
+moirai,kernelsynth,ets,norm_mase,97,-9.1%,"[-13.3%, -4.9%]",1.00,0.62
+moirai,kernelsynth,Mixed,norm_crps,97,-0.2%,"[-3.7%, 3.3%]",0.54,0.48
+moirai,kernelsynth,Mixed,norm_mase,97,-1.9%,"[-5.5%, 1.4%]",0.85,0.47
+moirai,kernelsynth,Real Ref,norm_crps,97,-9.9%,"[-15.4%, -4.2%]",1.00,0.62
+moirai,kernelsynth,Real Ref,norm_mase,97,-8.7%,"[-13.6%, -3.7%]",1.00,0.62
+chronos,kernelsynth,sde,norm_crps,97,-4.5%,"[-10.8%, 2.1%]",0.91,0.59
+chronos,kernelsynth,sde,norm_mase,97,0.6%,"[-6.7%, 8.0%]",0.42,0.48
+chronos,kernelsynth,Mixed,norm_crps,97,3.3%,"[-1.2%, 8.2%]",0.08,0.42
+chronos,kernelsynth,Mixed,norm_mase,97,10.2%,"[5.5%, 15.2%]",0.00,0.34
+chronos,kernelsynth,Real Ref,norm_crps,97,18.3%,"[10.8%, 26.8%]",0.00,0.32
+chronos,kernelsynth,Real Ref,norm_mase,97,21.6%,"[13.9%, 30.2%]",0.00,0.29
